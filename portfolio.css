@@ -1,0 +1,380 @@
+ *{
+     margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background:  #0f172a;
+        
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        display: inline-block;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        backdrop-filter: blur (10px);
+    }
+    .home{
+        margin-left: 600px;
+    }
+    .about{
+        margin-left: 10px;
+    }
+    .skills{
+        margin-left: 10px;
+    }
+    .education{
+        margin-left: 10px;
+    }
+    .contact{
+        margin-left: 10px;
+    }
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    list-style: none;
+    color: azure;
+
+}  
+  .hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    margin-top: 50px;
+  }
+  .hero h1{
+    font-size: 50px;
+    color: azure;
+  }
+  .hero p{
+    font-size: 30px;
+    margin-top: 5px;
+    color: azure;
+  }
+    .hero span{
+        color:  rgb(28, 86, 194);
+        font-family: cursive;
+    }
+    .hero p:nth-of-type(2){
+        font-size: 20px;
+        color: azure;
+    }
+     .hero p:nth-of-type(3){
+        font-size: 25px;
+        color:  rgb(28, 86, 194);
+    }
+    .icon{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .icon a{
+        color: azure;
+        font-size: 25px;
+        transition: 0.3s;
+    }
+    .icon a:hover{
+        color:  rgb(28, 86, 194);
+        transition: scale(1.2);
+    }
+.ab h2{
+    font-size: 100px;
+    margin-left: 10px;
+    color: azure;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  } 
+  .about-image img{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px gray;
+  } 
+  .ab p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    color: azure;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ab span{
+        color: rgb(28, 86, 194);
+        font-family: cursive;
+    }
+    .ab p:nth-of-type(2){
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: azure;
+  }
+    .i{
+        color: azure;
+        font-size: 25px;
+        transition: 0.3s;
+        margin-left: 20px;
+    }
+    .i :hover{
+        color:  rgb(28, 86, 194);
+        transition: scale(1.2);
+    }
+    .education-section {
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.education-section h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color:  azure;
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color:  rgb(28, 86, 194);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.edu-container {
+    padding: 20px 40px;
+    position: relative;
+    width: 50%;
+}
+
+.edu-container.left {
+    left: 0;
+}
+
+.edu-container.right {
+    left: 50%;
+}
+
+.edu-content {
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+.edu-content h3 {
+    color: rgb(28, 86, 194);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.edu-content p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.edu-container::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(28, 86, 194);
+    border-radius: 50%;
+    top: 30px;
+    z-index: 1;
+}
+
+.edu-container.left::before{
+    right: -10px;
+}
+
+.edu-container.right::before {
+    left: -10px;
+}
+    .skills-section h6 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: azure;
+     margin-left: 10px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-logos {
+    display: flex;
+    gap: 25px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-logos i {
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.08);
+    transition: 0.3s ease;
+    margin-left: 10px;
+}
+.skill-logos i:hover {
+    transform: scale(1.15);
+}
+
+.html {
+    color: #e44d26;
+}
+
+.css {
+    color: #264de4;
+}
+
+.js {
+    color: #f0db4f;
+}
+
+.github {
+    color: white;
+}
+.vscode {
+    color: #0078d7;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-box {
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 15px rgba(255,255,255,0.08);
+    transition: 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(255,255,255,0.15);
+}
+
+.skill-box{
+    font-size: 2rem;
+    color:  rgb(28, 86, 194) ;
+    margin-bottom: 20px;
+}
+
+.skill-box ul {
+    padding-left: 20px;
+}
+
+.skill-box ul li {
+    margin: 12px 0;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+}
+.contact-section {
+    width: 100%;
+    min-height: 70vh;
+    padding: 80px 10%;
+    color: white;
+}
+
+.contact-heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-family: serif;
+    position: relative;
+}
+
+.contact-heading::after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-left {
+    max-width: 650px;
+}
+
+.contact-left h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(28, 86, 194);
+}
+
+.contact-left p {
+    font-size: 1.1rem;
+    color: #dcdcdc;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 18px 0;
+    font-size: 1rem;
+}
+
+.contact-item i {
+    font-size: 1.2rem;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    transition: 0.3s ease;
+}
+
+.contact-item i:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
